@@ -46,7 +46,12 @@ public class TimeTracker extends AppCompatActivity {
             startActivityForResult(intent, TIME_ENTRY_REQUEST_CODE);
         } else if (R.id.menu_edit_contact == item.getItemId()) {
             startActivity(new Intent(this, EditContactActivity.class));
-        }
+        } else if (R.id.jump_to_charge_activity == item.getItemId())
+            startActivity(new Intent(this, ChargeActivity.class));
+            else if (R.id.jump_to_torch_activity == item.getItemId())
+            startActivity(new Intent(this, TorchActivity.class));
+        else if (R.id.jump_to_key_listener == item.getItemId())
+            startActivity(new Intent(this, KeyListenerActivity.class));
         return super.onOptionsItemSelected(item);
     }
 

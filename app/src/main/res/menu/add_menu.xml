@@ -6,4 +6,13 @@
     <item
         android:id="@+id/menu_edit_contact"
         android:title="Edit Contact"></item>
+    <item
+        android:id="@+id/jump_to_charge_activity"
+        android:title="charge"></item>
+    <item
+        android:id="@+id/jump_to_torch_activity"
+        android:title="torch"></item>
+    <item
+        android:id="@+id/jump_to_key_listener"
+        android:title="key listener"></item>
 </menu>
