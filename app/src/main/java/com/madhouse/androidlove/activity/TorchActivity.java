@@ -26,6 +26,7 @@ public class TorchActivity extends Activity {
     }
 
     public void torchSwitchClick() {
+        // TODO 如果用户没给Camera权限，会闪退
         Context context = this.getApplicationContext();
         if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH)) {
             ToggleButton button = (ToggleButton) findViewById(R.id.b_torch);
