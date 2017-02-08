@@ -98,7 +98,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
+        if (id.main_menu_email == item.getItemId())
+            startActivity(new Intent(this, SimpleEmailActivity.class));
         return super.onOptionsItemSelected(item);
     }
 

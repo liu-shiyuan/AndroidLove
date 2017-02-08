@@ -6,4 +6,7 @@
     <item
         android:id="@+id/main_menu_buy"
         android:title="buy"></item>
+    <item
+        android:id="@+id/main_menu_email"
+        android:title="email"></item>
 </menu>
